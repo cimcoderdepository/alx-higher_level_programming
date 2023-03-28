@@ -1,9 +1,16 @@
 #!/usr/bin/python3
 class Square:
-    """A class representing a square."""
+    """
+    python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+
+    A class representing a square.
+    """
 
     def __init__(self, size):
         """
+        python3 -c 'print(__import__("my_module").my_function.__doc__)'
+        python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+
         Initializes a Square object.
 
         Args:
