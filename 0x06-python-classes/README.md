@@ -73,6 +73,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 # Quiz questions
 
+
 **Question #0**
 
 In this following code, what is `is_new`?
@@ -99,6 +100,7 @@ class User:
 
 🟢 A public instance attribute
 
+
 **Question #1**
 
 In this following code, what is `User`?
@@ -122,6 +124,7 @@ class User:
 🟢 A class
 
 ⚪ A string
+
 
 **Question #2**
 
@@ -149,6 +152,7 @@ class User:
 
 🟢 A public class attribute
 
+
 **Question #3**
 
 What do these lines print?
@@ -174,6 +178,7 @@ What do these lines print?
 
 ⚪ None
 
+
 **Question #4**
 
 What do these lines print?
@@ -198,6 +203,7 @@ What do these lines print?
 ⚪ is\_new
 
 ⚪ Nothing
+
 
 **Question #5**
 
@@ -225,6 +231,7 @@ class User:
 
 ⚪ A public instance attribute
 
+
 **Question #6**
 
 What do these lines print?
@@ -249,6 +256,7 @@ What do these lines print?
 🟢 89
 
 ⚪ id
+
 
 **Question #7**
 
