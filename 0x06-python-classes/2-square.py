@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This class defines a square with a given size.
+This module defines a square with a given size.
 
     * Private instance attribute: size
     * Instantiation with optional size: def __init__(self, size=0):
