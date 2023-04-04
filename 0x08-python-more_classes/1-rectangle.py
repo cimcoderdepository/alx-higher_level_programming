@@ -17,63 +17,62 @@ class Rectangle:
             __width
             __height
         """
+        self.__height = height
         self.__width = width
 
-        @property
-        def width(self):
-            """
-            Property getter.
+    @property
+    def height(self):
+        """
+        Property getter.
 
-            Args:
-                None
+        Args:
+            None
 
-            Return:
-                self.width
-            """
-            return self.width
+        Return:
+            self.__height
+        """
+        return self.__height
 
-        @width.setter
-        def width(self, value):
-            """
-            Set the width of the rectangle.
+    @height.setter
+    def height(self, value):
+        """
+        Set the width of the rectangle.
 
-            Args="value"
+        Args="value"
 
-            Attributes="width"
-            """
-            if not isinstance(int, value >= 0):
-                raise TypeError("width must be an integer")
+        Attributes="height"
+        """
+        if not isinstance(value, int):
+            raise TypeError("width must be an integer")
 
-            if width < 0:
-                raise ValueError("width must be >= 0")
+        if value < 0:
+            raise ValueError("width must be >= 0")
 
-            self.width = value
+        self.__height = value
 
-        self.__height = height
+    @property
+    def width(self):
+        """
+        Property getter.
 
-        @property
-        def height(self):
-            """
-            Property getter.
+        Returns:
+            self.width
+        """
+        return self.__width
 
-            Returns:
-                self.height
-            """
-            return self.height
+    @width.setter
+    def width(self, value):
+        """
+        Set the height of the rectangle.
 
-        @height.setter
-        def height(self, value):
-            """
-            Set the height of the rectangle.
+        Args="value"
 
-            Args="value"
+        Attributes="width"
+        """
+        if not isinstance(value, int):
+            raise TypeError("height must be an integer")
 
-            Attributes="height"
-            """
-            if not isinstance(int, value >= 0):
-                raise TypeError("height must be an integer")
+        if value < 0:
+            raise ValueError("height must be >= 0")
 
-            if height < 0:
-                raise ValueError("height must be >= 0")
-
-            self.height = value
+        self.__width = value
