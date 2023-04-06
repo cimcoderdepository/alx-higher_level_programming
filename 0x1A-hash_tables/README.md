@@ -6,6 +6,8 @@
 
 # Resources
 
+![DATA DICTIONARY IS DONE](https://www.tabnine.com/blog/wp-content/uploads/2021/06/data-dictionary-is.jpg)
+
 **Read or watch:**
 
 * [What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://intranet.alxswe.com/rltoken/IQVfdxJlS6jhAgcuUoCseg)
