@@ -26,7 +26,7 @@ You will also learn about:
 * Serialization/Deserialization
 * JSON
 
-https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level\_programming+/331/giphy.mp4
+https://user-images.githubusercontent.com/117805548/232355542-ce3e6be6-5bda-498f-a012-259c90fc2418.mp4
 
 # Resources
 

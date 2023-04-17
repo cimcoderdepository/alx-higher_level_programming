@@ -38,30 +38,40 @@ class Rectangle:
         """
         return self.__height
 
-    @height.setter
-    def height(self, value):
+@height.setter
+def height(self, value):
         """Set height to a value."""
-        if not isinstance(value, int):
-            raise TypeError("height must be an integer")
-        if value < 0:
-            raise ValueError("height must be >=0")
-        self.__height = value
 
-    @property
-    def width(self):
-        """Get width property.
+try:
+    value = int(input('enter height: '))
+    self.__height = value
+    if value < 0:
+        raise ValueError("height must be >=0")
+    else:
+        raise TypeError("height must be an integer")
+except (TypeError, ValueError) as e:
+    print(str(e))
+
+@property
+def width(self):
+    """Get width property.
 
         Returns:
             __width to the instance.
             # __width is a private instance attribute.
-        """
-        return self.__width
+     """
+    return self.__width
 
-    @width.setter
-    def width(self, value):
+@width.setter
+def width(self, value):
         """Set width to a value."""
-        if not isinstance(value, int):
-            raise TypeError("width must be an integer")
-        if value < 0:
-            raise ValueError("width must be >=0")
-        self.__width = value
+
+try:
+    value = int(input('enter width: '))
+    self.__width = value
+    if value < 0:
+        raise ValueError("width must be >=0")
+    else:
+        raise TypeError("width must be an integer")
+except (TypeError, ValueError) as e:
+    print(str(e))
